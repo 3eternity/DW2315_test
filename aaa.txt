@@ -1,0 +1,10 @@
+git init 初始化git仓库
+git status查看文件的状态
+git add文件列表 追踪文件
+git add.把工作目录中的文件全部添加到暂存区
+git commit -m 提交信息 向仓库中提交代码
+git log 查看提交的记录
+
+git reset --hard commitID 将git仓库中指定的更新记录恢复出来，并且覆盖暂存区和工作目录
+git checkout 文件：用暂存区中的文件覆盖工作目录中的文件
+git rm --cached文件  将文件从暂存区中删除
